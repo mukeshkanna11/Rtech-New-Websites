@@ -1,0 +1,72 @@
+{
+    "/": [
+        "/assets/White.png",
+        "/assets/landing.jpg",
+        "/assets/arrow.svg",
+        "/assets/loading-gif.gif",
+        "/assets/esummit.jpg",
+        "/assets/contact-us.jpg",
+        "/assets/sample_content.pdf",
+        "/assets/up-arrow.png",
+        "/assets/star.png",
+        "/assets/b1.png",
+        "/assets/b2.png",
+        "/assets/b3.png",
+        "/assets/pen.jpg",
+        "/assets/quotes.png",
+        "/assets/down_white.png",
+        "/assets/b4.png",
+        "/assets/b5.png",
+        "/assets/b6.png",
+        "/assets/b7.png",
+        "/assets/cross.png",
+        "/assets/b8.png",
+        "/assets/b9.png",
+        "/assets/b10.png",
+        "/js/script.js",
+        "/js/script1.js"
+    ],
+    "/contact/": [
+        "/assets/contact-us.jpg",
+        "/assets/White.png",
+        "/assets/loading-gif.gif",
+        "/assets/up-arrow.png",
+        "/js/script.js"
+    ],
+    "/pricing/": [
+        "/assets/White.png",
+        "/assets/up-arrow.png",
+        "/assets/loading-gif.gif",
+        "/js/script.js"
+    ],
+    "/career/": [
+        "/assets/career-img.jpg",
+        "/assets/White.png",
+        "/assets/up-arrow.png",
+        "/assets/loading-gif.gif",
+        "/assets/esummit.jpg",
+        "/js/script.js"
+    ],
+    "/our-difference/": [
+        "/assets/White.png",
+        "/assets/up-arrow.png",
+        "/assets/loading-gif.gif",
+        "/assets/curved.png",
+        "/assets/diff-img.jpg",
+        "/js/script.js"
+    ],
+    "/services/": [
+        "/assets/White.png",
+        "/assets/up-arrow.png",
+        "/assets/loading-gif.gif",
+        "/assets/p1.png",
+        "/assets/p2.png",
+        "/assets/brochure.pdf",
+        "/assets/arrow.svg",
+        "/assets/cross.png",
+        "/assets/services-img.jpg",
+        "/assets/down_white.png",
+        "/assets/p3.png",
+        "/js/script.js"
+    ]
+}

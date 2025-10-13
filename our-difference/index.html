@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href='/assets/Rtech-logo.png'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/eb92b1aa27.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/js/preloader.js"></script>
+
+    <title>Home-ReadyTech</title>
+</head>
+
+<body class="body-loading">
+
+   <!-- Preloader -->
+<div class="preloader">
+    <div class="preloader-content">
+        <!-- <div class="preloader-ecell-logo">
+            <img src="assets/Rtech1-logo.svg" alt="Ready Tech Solutions Logo ">
+        </div> -->
+        <div class="preloader-progress-bar">
+            <div class="preloader-progress-bar-done"></div>
+        </div>
+        <noscript>
+            <div class="preloader-fail">
+                <em>Javascript required for the page to work.</em>
+            </div>
+        </noscript>
+    </div>
+</div>
+
+    <!-- Container START -->
+
+    <div class="actual-content">
+
+        <!-- Navbar -->
+        <div class="nav">
+            <div class="background-complete">
+                <div class="navbar">
+                    <div class="navrow">
+                        <div class="leftlogo">
+                            <a href="/index.html"><img class="logoimage" src="/assets/Rtech1-logo.png"
+                                    alt="E-Cell Logo" /></a>
+                        </div>
+                        <div class="centerlink">
+                            <div onclick="changePage('/our-difference/')" class="centers">OUR DIFFERENCE</div>
+                            <div onclick="changePage('/services/')" class="centers">SERVICES</div>
+                            <div onclick="changePage('/career/')" class="centers">CAREER</div>
+                            <div onclick="changePage('/contact/')" class="centers">LET'S TALK</div>
+                            <div onclick="changePage('/pricing/')" class="centers">PRICING</div>
+                        </div>
+                        <div class="rightlink">
+                            <a class="logo1" target="_blank"
+                                href="https://www.instagram.com/explore/locations/218009922476192/ready-tech-solutions/"><i
+                                    class="fa-brands fa-instagram fa-md footer_links_i"
+                                    style="color: #1ED760 !important;"></i></a>
+                            <a class="logo1" target="_blank"
+                                href="https://www.linkedin.com/company/readytechsolutions/?originalSubdomain=in"><i
+                                    class="fa-brands fa-linkedin-in fa-md footer_links_i"
+                                    style="color: #1ED760 !important;"></i></a>
+                            <a class="logo1" target="_blank" href="https://www.facebook.com/SoftwareOrganisation/"><i
+                                    class="fa fa-facebook fa-md footer_links_i"
+                                    style="color: #1ED760 !important;"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="rightlogo">
+                    <button class="menu"
+                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                        aria-label="Main Menu">
+                        <svg width="60" height="50" viewBox="0 0 100 100">
+                            <path class="line line1"
+                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                            <path class="line line2" d="M 20,50 H 80" />
+                            <path class="line line3"
+                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg>
+
+
+                    </button>
+                </div>
+
+            </div>
+            <div id="upabove">
+                <div class="elements">
+                    <div onclick="changePage('/our-difference/')" class="contents">OUR DIFFERENCE</div>
+                    <div onclick="changePage('/services/')" class="contents">SERVICES</div>
+                    <div class="contents" onclick="changePage('/career/')">CAREER</div>
+                    <div onclick="changePage('/contact/')" class="contents">LET'S TALK</div>
+                    <div onclick="changePage('/pricing/')" class="contents">PRICING</div>
+                    <div class="socials" style="margin-top:25px;">SOCIAL HANDLES</div>
+                    <div class="rightlink">
+                        <a class="logo1" target="_blank"
+                            href="https://www.instagram.com/explore/locations/218009922476192/ready-tech-solutions/"><i
+                                class="fa-brands fa-instagram fa-md footer_links_i"
+                                style="color: #1ED760 !important;"></i></a>
+                        <a class="logo1" target="_blank"
+                            href="https://www.linkedin.com/company/readytechsolutions/?originalSubdomain=in"><i
+                                class="fa-brands fa-linkedin-in fa-md footer_links_i"
+                                style="color: #1ED760 !important;"></i></a>
+                        <a class="logo1" target="_blank" href="https://www.facebook.com/SoftwareOrganisation/"><i
+                                class="fa fa-facebook fa-md footer_links_i" style="color: #1ED760 !important;"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lemon background -->
+            <div class="lemons">
+                <div class="diff-img">
+                    <div class="lemons-screen podcast-screen">
+                        <div class="lemons-text" data-aos="fade-up" data-aos-duration="1000">OUR DIFFERENCE</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Lemon background End -->
+
+        </div>
+
+        <!-- PODCAST -->
+
+        <div class="breaker2"></div>
+        <div class="centerText" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div class="centeredText">WHO WE ARE</div>
+        </div>
+
+        <div class="ceo_note1" style="cursor: auto;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+            Ready Tech Solutions stands as a service-driven technology company built on the vision to empower businesses
+            and individuals through innovation. We don’t just develop software because you need an app — we build it
+            because you have a vision to bring alive. At Ready Tech, there’s no such thing as a complex idea — only
+            opportunities waiting for creative solutions!
+            Technology matters. It has the power to transform, inspire, and connect. Ready Tech Solutions defines
+            opportunities, shapes digital conversations, and creates partnerships that drive progress. Many businesses
+            struggle to find a tech partner who truly “gets it” — who understands their brand, goals, and unique
+            challenges. Our team bridges that gap by combining strategic insight, technical excellence, and creative
+            innovation to deliver digital experiences that make a difference. <span style="font-style: italic;">Our
+                model addresses the exact conundrum!</span></div>
+
+
+
+        <div class="wework0" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+            <div class="wework0_container">
+                <div class="wework0_left">
+                    OUR PEOPLE & CULTURE
+                </div>
+                <div class="wework0_right">
+                    <div>
+                        <div class="wework0_right_head" style="color: #1ED760; text-transform: uppercase;">
+                            Innovation | Collaboration | Growth | Integrity
+                        </div>
+                        <div class="wework0_right_text">
+                            At Ready Tech Solutions, we thrive on innovation, collaboration, and continuous learning.
+                            We embrace the latest technologies with integrity and ethical practices.
+                            Our teams work together to solve real-world problems and create impactful solutions.
+                            We foster a positive, inclusive environment where every idea matters.
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wework0" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+            <div class="wework0_container">
+                <div class="wework0_left">
+                    OUR IMPACT
+                </div>
+                <div class="wework0_right">
+                    <div>
+                        <div class="wework0_right_head" style="color: #1ED760; text-transform: uppercase;">
+                            Elevate Your Digital Presence
+                        </div>
+                        <div class="wework0_right_text">
+                            At Ready Tech Solutions, our impact lies in the innovative technology and strategies we
+                            create to grow your business. We collaborate with industry experts to deliver custom
+                            software, smart solutions, and digital experiences that drive measurable results. Our
+                            approach is personalized and result-oriented, spanning multiple sectors to ensure every
+                            project achieves its objectives. With Ready Tech, your brand doesn’t just exist — it stands
+                            out, connects, and performs.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wework_divider">
+            <div class="wework_divider_hr"></div>
+        </div>
+
+        <!-- MODEL -->
+
+        <div class="centerText" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div class="centeredText">OUR MODEL</div>
+        </div>
+
+        <div class="base-container">
+            <div id="zigzag1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="card">
+                    <div class="card-num" style="color: #1ED760;">01</div>
+                    <div class="zigzag-content">
+                        <div class="zigzag-text">Discovery & Consultation</div>
+                        <div class="subtext">
+                            We start by understanding your business, goals, and challenges. Our team conducts a detailed
+                            discussion to tailor solutions for your unique needs.
+                        </div>
+                        <div class="zigzag-learn-more">
+                            <a onclick="changePage('/services/')" class="underline-button" style="color: #1ED760;">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="curved"></div>
+                <div class="card">
+                    <div class="card-num" style="color: #1ED760;">02</div>
+                    <div class="zigzag-content">
+                        <div class="zigzag-text">Team build</div>
+                        <div class="subtext">
+                            We assign a dedicated team of developers, designers, and strategists to bring your project
+                            to life efficiently and collaboratively.</div>
+                        <div class="zigzag-learn-more">
+                            <a onclick="changePage('/services/')" class="underline-button" style="color: #1ED760;">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="curved"></div>
+                <div class="card">
+                    <div class="card-num" style="color: #1ED760;">03</div>
+                    <div class="zigzag-content">
+                        <div class="zigzag-text">Solution Development</div>
+                        <div class="subtext">
+                            From planning to coding, testing, and refining, we create custom software, web apps, and
+                            digital solutions that meet your objectives.</div>
+                        <div class="zigzag-learn-more">
+                            <a onclick="changePage('/services/')" class="underline-button" style="color: #1ED760;">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="curved"></div>
+                <div class="card">
+                    <div class="card-num" style="color: #1ED760;">04</div>
+                    <div class="zigzag-content">
+                        <div class="zigzag-text">Deployment & Support</div>
+                        <div class="subtext">
+                            Launch your product with confidence. We provide ongoing support, updates, and optimizations
+                            to ensure seamless performance.</div>
+                        <div class="zigzag-learn-more">
+                            <a onclick="changePage('/services/')" class="underline-button" style="color: #1ED760;">Learn
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODEL -->
+
+        <!-- PODCAST END -->
+
+        <!-- FOOTER -->
+
+        <div class="newsletter">
+            <div class="newsletter_left" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <div class="newsletter_left_up">
+                    <div style="color: #1ED760;">SUBSCRIBE TO OUR</div>
+                </div>
+                <div class="newsletter_left_down">
+                    <div>NEWSLETTER</div>
+                </div>
+            </div>
+            <div class="newsletter_right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <form class="newsletter_right_container" id="newsletter_contactform">
+                    <input class="newsletter_input" type="email" required placeholder="ENTER EMAIL ADDRESS"
+                        id="newsletter_input_newsletter" autocomplete="off">
+                    <button class="newsletter_submit_button" type="submit">
+                        <div class="newsletter_submit">SUBMIT</div>
+                        <img class="newsletter_submit_gif" src="/assets/loading-gif.gif"></img>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <hr class="footer_hr" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+            <div class="footer_container">
+                <div class="footer_logo" style="cursor: auto;" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="700">READY TECH SOLUTIONS</div>
+                <div class="footer_menu" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <a class="footer_menu_a" onclick="changePage('/our-difference/')">OUR DIFFERENCE</a>
+                    <a class="footer_menu_a" onclick="changePage('/services/')">SERVICES</a>
+                    <a class="footer_menu_a" onclick="changePage('/career/')">CAREER</a>
+                    <a class="footer_menu_a" onclick="changePage('/contact/')">LET'S TALK</a>&nbsp;
+                    <a class="footer_menu_a" onclick="changePage('/pricing/')">PRICING</a>
+                </div>
+                <div class="footer_links" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                    <a class="footer_links_a" target="_blank"
+                        href="https://www.instagram.com/explore/locations/218009922476192/ready-tech-solutions/"><i
+                            class="fa-brands fa-instagram fa-xl footer_links_i" style="color: #1ED760;"></i></a>
+                    <a class="footer_links_a" target="_blank"
+                        href="https://www.linkedin.com/company/readytechsolutions/?originalSubdomain=in"><i
+                            class="fa-brands fa-linkedin-in fa-xl footer_links_i" style="color: #1ED760;"></i></a>
+                    <a class="footer_links_a" target="_blank" href="https://www.facebook.com/SoftwareOrganisation/">
+                        <i class="fa fa-facebook fa-xl footer_links_i" style="color: #1ED760;"></i>
+                    </a>
+
+
+                    <a href="#" class="footer_links_arrow"><img class="footer_links_arrow_img"
+                            src="/assets/up-arrow.png"></a>
+                </div>
+                <div class="footer_textcenter">
+                    <div class="footer_madeby">
+                        <span class="footer_madeby_span">WEBSITE DEVELOPED BY</span>
+                        <span onclick="changePage('/credit')" class="credit">MERN SDE - MUKESH</span>
+                    </div>
+                    <div class="footer_copyright">
+                        &copy; Ready Tech Solutions. All Rights Reserved 2025
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FOOTER END -->
+
+    </div>
+    <!-- Container END -->
+
+    <script type="text/javascript" src="/js/script.js"></script>
+</body>
+
+</html>
