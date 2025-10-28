@@ -29,9 +29,9 @@ function changePage(dest) {
   if (dest === "/")
     window.location.href = "/index.html";
   else if (dest === "/blog")
-    window.open("https://medium.com/@teche.ecell.sastra", "_blank");
+    window.open("https://github.com/mukeshkanna11", "_blank");
   else if (dest === "/credit")
-    window.open("https://www.linkedin.com/in/harishh07/", "_blank");
+    window.open("https://www.linkedin.com/in/mukeshkanna112/", "_blank");
   else
     window.location.href = `${dest}index.html`;
 }
@@ -318,9 +318,9 @@ if (contactFormElement) {
     }, 10000)
 
     try {
-      const BOT_ACC = "mailerdope@gmail.com"
+      const BOT_ACC = "mukesh.kanna@readytechsolutions.in"
       const USER_ACC_A = "brandcontent"
-      const USER_ACC_B = "@urbanedeeppockets.in"
+      const USER_ACC_B = "mukesh.kanna@readytechsolutions.in"
       const USER_ACC = USER_ACC_A + USER_ACC_B
       const PASSa = "FF59421D53C253"
       const PASSb = "0E388E9C279C"
@@ -407,7 +407,7 @@ setWeWorkHeight()
 // QUOTE
 
 function openWhatsApp() {
-  var phoneNumber = '+91 77080 92605';
+  var phoneNumber = '+91 8220757046';
   var message = 'Hello, I have a question!';
   var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
 
